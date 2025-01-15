@@ -5,39 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>$LOTTLE - Transforming Crypto</title>
     <style>
+        /* General Styles */
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Roboto", sans-serif;
             margin: 0;
             padding: 0;
-            background: #f5f5f5;
+            background: linear-gradient(to bottom, #f0f8ff, #ffffff);
             color: #333;
         }
         header {
-            background: #4CAF50;
-            color: white;
             text-align: center;
-            padding: 20px 0;
+            padding: 60px;
+            background: linear-gradient(to right, #d4af37, #f7e7ce);
+            color: white;
+        }
+        header h1 {
+            font-family: "Playfair Display", serif;
+            font-size: 3.5em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.5em;
+            font-weight: lighter;
         }
         .container {
-            max-width: 800px;
-            margin: 20px auto;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .section {
+            margin: 30px 0;
             padding: 20px;
             background: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            border-radius: 8px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
+        .section h2 {
+            font-family: "Playfair Display", serif;
+            font-size: 2em;
+            margin-bottom: 10px;
             color: #4CAF50;
+        }
+        .hero img {
+            max-width: 250px;
+            border-radius: 15px;
+            margin: 20px auto;
         }
         .button {
             display: inline-block;
-            padding: 10px 20px;
-            margin: 10px 0;
+            padding: 12px 20px;
+            margin: 10px;
             background: #4CAF50;
             color: white;
             text-decoration: none;
-            border-radius: 4px;
-            text-align: center;
+            border-radius: 5px;
+            font-weight: bold;
         }
         .button:hover {
             background: #45a049;
@@ -47,47 +70,51 @@
             padding: 20px;
             background: #333;
             color: white;
-            margin-top: 20px;
-        }
-        .links {
-            margin: 20px 0;
-        }
-        .links a {
-            margin-right: 10px;
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        .links a:hover {
-            text-decoration: underline;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to $LOTTLE</h1>
+        <h1>$LOTTLE</h1>
         <p>Transforming Crypto with Vision and Purpose</p>
     </header>
 
     <div class="container">
-        <h2>About $LOTTLE</h2>
-        <p>$LOTTLE is a unique cryptocurrency inspired by prophetic visions of transformation, abundance, and generational wealth. Built on the Solana blockchain, $LOTTLE combines innovation with purpose, creating opportunities for sustainable growth.</p>
-
-        <h2>Token Details</h2>
-        <ul>
-            <li><strong>Blockchain:</strong> Solana</li>
-            <li><strong>Contract Address:</strong> Bbk3c4BSDZFRYMYkke4Jq19FSeLtLrEk22A866MTpump</li>
-            <li><strong>Total Supply:</strong> [Insert Total Supply]</li>
-        </ul>
-
-        <h2>Explore $LOTTLE</h2>
-        <div class="links">
-            <a href="https://dexscreener.com/solana/95VVd7yWXVZjdLhkxmA1rUaaPCvS2imq3TzCz3XDFDrj" class="button">View on Dexscreener</a>
-            <a href="https://www.onesmallflame.com/cryptos-words-dreams--visions/he-calls-him-little-lottle#/" class="button">Read the Blog</a>
+        <!-- Hero Section -->
+        <div class="section hero">
+            <img src="notalittlealottle.jpeg" alt="I like you a lottle">
+            <h2>Welcome to $LOTTLE</h2>
+            <p>Inspired by visions of growth, abundance, and sustainability.</p>
         </div>
 
-        <h2>Join the Community</h2>
-        <p>Be a part of the $LOTTLE journey! Connect with us and stay updated:</p>
-        <div class="links">
+        <!-- About Section -->
+        <div class="section">
+            <h2>About $LOTTLE</h2>
+            <p>$LOTTLE is a unique cryptocurrency inspired by prophetic visions of transformation, abundance, and generational wealth. Built on the Solana blockchain, $LOTTLE combines innovation with purpose, creating opportunities for sustainable growth.</p>
+        </div>
+
+        <!-- Token Details Section -->
+        <div class="section">
+            <h2>Token Details</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li><strong>Blockchain:</strong> Solana</li>
+                <li><strong>Contract Address:</strong> Bbk3c4BSDZFRYMYkke4Jq19FSeLtLrEk22A866MTpump</li>
+                <li><strong>Total Supply:</strong> [Insert Total Supply]</li>
+            </ul>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="section">
+            <h2>Explore $LOTTLE</h2>
+            <a href="https://www.onesmallflame.com" class="button">Explore the Blog</a>
+            <a href="https://dexscreener.com/solana/95vvd7ywxvzjdlhkxma1ruaapcvs2imq3tzcz3xdfdrj" class="button">View on Dexscreener</a>
+        </div>
+
+        <!-- Community Section -->
+        <div class="section">
+            <h2>Join the Community</h2>
+            <p>Be a part of the $LOTTLE journey! Connect with us and stay updated:</p>
             <a href="#" class="button">Join Telegram</a>
             <a href="#" class="button">Join Discord</a>
         </div>
