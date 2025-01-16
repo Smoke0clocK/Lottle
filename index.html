@@ -1,114 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>$LOTTLE</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&display=swap">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f8f9fa;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <title>$LOTTLE - Transforming Crypto</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ffffff, #e6f7ff);
+            color: #333;
+        }
 
-    .header {
-      text-align: center;
-      padding: 20px;
-      background: #000;
-      color: #fff;
-    }
+        /* Header Styles */
+        header {
+            text-align: center;
+            padding: 60px;
+            background: linear-gradient(135deg, #ffcc80, #ffa726, #ff7043);
+            color: white;
+        }
+        header h1 {
+            font-family: "Bangers", cursive;
+            font-size: 3.5em;
+            color: gold;
+            text-stroke: 2px #b2ebf2; /* Opalish outline */
+            -webkit-text-stroke: 2px #b2ebf2;
+            text-fill-color: gold;
+            -webkit-text-fill-color: gold;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.5em;
+            font-weight: lighter;
+        }
 
-    .title {
-      font-family: 'Bangers', cursive;
-      font-size: 3rem;
-      color: #ffe600;
-      text-shadow: 0 0 0.5px #d6f1ff;
-    }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-    .subtitle {
-      font-size: 1.2rem;
-      color: #f8f9fa;
-    }
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background: black;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: white;
+            text-align: center;
+        }
+        .section h2 {
+            font-family: "Bangers", cursive;
+            font-size: 2rem;
+            color: gold;
+            text-stroke: 1.5px #b2ebf2; /* Opalish outline */
+            -webkit-text-stroke: 1.5px #b2ebf2;
+            text-fill-color: gold;
+            -webkit-text-fill-color: gold;
+            margin-bottom: 10px;
+        }
+        .section p, .section ul li {
+            font-size: 1rem;
+        }
 
-    .content {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      background-color: #000;
-      color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            margin: 10px;
+            background: gold;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .button:hover {
+            background: #d4af37;
+        }
 
-    h1 {
-      font-family: 'Bangers', cursive;
-      font-size: 2rem;
-      color: #ffe600;
-      text-shadow: 0 0 0.5px #d6f1ff;
-      text-align: center;
-    }
-
-    p {
-      font-size: 1rem;
-      line-height: 1.5;
-      text-align: center;
-    }
-
-    .links {
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    .links a {
-      text-decoration: none;
-      color: #ffe600;
-      font-weight: bold;
-      margin: 0 10px;
-    }
-
-    .links a:hover {
-      text-decoration: underline;
-    }
-
-    .footer {
-      text-align: center;
-      padding: 10px;
-      background: #000;
-      color: #fff;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
-
 <body>
-  <div class="header">
-    <h1 class="title">$LOTTLE</h1>
-    <p class="subtitle">Transforming Crypto with Vision and Purpose</p>
-  </div>
+    <header>
+        <h1>$LOTTLE</h1>
+        <p>Transforming Crypto with Vision and Purpose</p>
+    </header>
 
-  <div class="content">
-    <h1>Welcome to $LOTTLE</h1>
-    <p>Inspired by visions of growth, abundance, and sustainability.</p>
-  </div>
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="section hero">
+            <img src="littlelottleduck.webp" alt="Little Lottle Duck" style="max-width: 250px; border-radius: 15px; margin: 20px auto;">
+            <h2>Welcome to $LOTTLE</h2>
+            <p>Inspired by visions of growth, abundance, and sustainability.</p>
+        </div>
 
-  <div class="content">
-    <h1>About $LOTTLE</h1>
-    <p>$LOTTLE is a unique cryptocurrency inspired by prophetic visions of transformation, abundance, and generational wealth. Built on the Solana blockchain, $LOTTLE combines innovation with purpose, creating opportunities for sustainable growth.</p>
-  </div>
+        <!-- About Section -->
+        <div class="section">
+            <h2>About $LOTTLE</h2>
+            <p>$LOTTLE is a unique cryptocurrency inspired by prophetic visions of transformation, abundance, and generational wealth. Built on the Solana blockchain, $LOTTLE combines innovation with purpose, creating opportunities for sustainable growth.</p>
+        </div>
+        
+        <!-- Swap Tokens Section -->
+        <div class="section">
+            <h2>Swap Tokens</h2>
+            <p>Easily swap tokens on Raydium with the link below:</p>
+            <a href="https://raydium.io/swap/?inputMint=Bbk3c4BSDZFRYMYkke4Jq19FSeLtLrEk22A866MTpump&outputMint=sol" target="_blank" class="button">Go to Swap</a>
+        </div>
 
-  <div class="links">
-    <a href="https://discord.gg/UcfZBQf3">Join us on Discord</a>
-    <a href="https://t.me/LOTTLEonSOL">Follow us on Telegram</a>
-  </div>
+        <!-- Token Details Section -->
+        <div class="section">
+            <h2>Token Details</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li><strong>Blockchain:</strong> Solana</li>
+                <li><strong>Contract Address:</strong> Bbk3c4BSDZFRYMYkke4Jq19FSeLtLrEk22A866MTpump</li>
+                <li><strong>Total Supply:</strong> 999,999,999</li>
+            </ul>
+        </div>
 
-  <div class="footer">
-    <p>&copy; 2025 $LOTTLE. All rights reserved.</p>
-  </div>
+        <!-- Call to Action -->
+        <div class="section">
+            <h2>Explore $LOTTLE</h2>
+            <a href="https://www.onesmallflame.com/cryptos-words-dreams--visions/he-calls-him-little-lottle#/" class="button">Explore the Blog</a>
+            <a href="https://dexscreener.com/solana/95vvd7ywxvzjdlhkxma1ruaapcvs2imq3tzcz3xdfdrj" class="button">View on Dexscreener</a>
+        </div>
+
+        <!-- Community Section -->
+        <div class="section">
+            <h2>Join the Community</h2>
+            <p>Be a part of the $LOTTLE journey! Connect with us and stay updated:</p>
+            <a href="https://discord.gg/mrHTKJk79f" class="button">Join Discord</a>
+            <a href="https://x.com/ALittleLottle" class="button">Follow on Twitter</a>
+            <a href="https://t.me/LOTTLEonSOL" class="button">Join Telegram</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 $LOTTLE. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>
