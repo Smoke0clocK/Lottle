@@ -21,8 +21,9 @@
             color: white;
         }
         header h1 {
-            font-family: "Playfair Display", serif;
+            font-family: "Bangers", cursive;
             font-size: 3.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
             margin-bottom: 10px;
         }
         header p {
@@ -33,44 +34,40 @@
             max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
-            text-align: center;
         }
         .section {
-            margin: 30px 0;
+            margin: 30px 0
             padding: 20px;
-            background: white;
+            background: black;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: white;
+            text-align: center;
         }
         .section h2 {
-            font-family: "Playfair Display", serif;
-            font-size: 2em;
+            font-family: "Bangers", cursive;
+            font-size: 2rem;
+            color: gold;
+            text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
             margin-bottom: 10px;
-            color: #a4b4d6; /* Opal-inspired pastel blue */
         }
-        ul {
-            list-style: none;
-            padding: 0;
-            word-wrap: break-word; /* Allows long text to wrap */
-            overflow-wrap: break-word; /* Ensures compatibility with different browsers */
-        }
-        .hero img {
-            max-width: 250px;
-            border-radius: 15px;
-            margin: 20px auto;
+        .section p, .section ul li {
+            font-size: 1rem;
         }
         .button {
             display: inline-block;
             padding: 12px 20px;
             margin: 10px;
-            background: #a4b4d6; /* Soft blue for buttons */
-            color: white;
+            background: gold;
+            color: black;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
+            font-size: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         }
         .button:hover {
-            background: #839ac4; /* Slightly darker blue on hover */
+            background: #d4af37;
         }
         footer {
             text-align: center;
@@ -90,7 +87,7 @@
     <div class="container">
         <!-- Hero Section -->
         <div class="section hero">
-            <img src="littlelottleduck.webp" alt="Little Lottle Duck">
+            <img src="littlelottleduck.webp" alt="Little Lottle Duck" style="max-width: 250px; border-radius: 15px; margin: 20px auto;">
             <h2>Welcome to $LOTTLE</h2>
             <p>Inspired by visions of growth, abundance, and sustainability.</p>
         </div>
@@ -101,40 +98,13 @@
             <p>$LOTTLE is a unique cryptocurrency inspired by prophetic visions of transformation, abundance, and generational wealth. Built on the Solana blockchain, $LOTTLE combines innovation with purpose, creating opportunities for sustainable growth.</p>
         </div>
         
-        <div style="margin-top: 20px; text-align: center;">
-          <div style="
-            display: inline-block;
-            background-color: black;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            text-align: center;
-          ">
-            <h2 style="
-              font-family: 'Bangers', cursive;
-              font-size: 2rem;
-              color: gold;
-              text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
-            ">
-              Swap Tokens
-            </h2>
-            <p style="color: white; font-size: 1rem; margin: 10px 0;">
-              Easily swap tokens on Raydium with the link below:
-            </p>
-            <a href="https://raydium.io/swap/?inputMint=Bbk3c4BSDZFRYMYkke4Jq19FSeLtLrEk22A866MTpump&outputMint=sol" target="_blank" style="
-              display: inline-block;
-              padding: 10px 15px;
-              font-size: 1rem;
-              background-color: gold;
-              color: black;
-              border-radius: 5px;
-              text-decoration: none;
-              font-weight: bold;
-            ">
-              Go to Swap
-            </a>
-          </div>
+        <!-- Swap Tokens Section -->
+        <div class="section">
+            <h2>Swap Tokens</h2>
+            <p>Easily swap tokens on Raydium with the link below:</p>
+            <a href="https://raydium.io/swap/?inputMint=Bbk3c4BSDZFRYMYkke4Jq19FSeLtLrEk22A866MTpump&outputMint=sol" target="_blank" class="button">Go to Swap</a>
         </div>
+
         <!-- Token Details Section -->
         <div class="section">
             <h2>Token Details</h2>
