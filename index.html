@@ -89,12 +89,21 @@
             font-family: "Bangers", cursive;
             font-size: 3.7rem;
             color: gold;
-            text-stroke: .25px #b2ebf2; /* Opalish outline */
-            -webkit-text-stroke: .25px #b2ebf2;
+            text-stroke: .15px #b2ebf2; /* Opalish outline */
+            -webkit-text-stroke: .15px #b2ebf2;
             text-fill-color: gold;
             -webkit-text-fill-color: gold;
             margin-bottom: 10px;
         }
+
+        @media (max-width: 768px) {
+            .section h2 {
+                font-size: 3.7rem;
+                text-stroke: 0.25px #b2ebf2;
+                -webkit-text-stroke: 0.25px #b2ebf2;
+            }
+        }
+
         .section p, .section ul li {
             font-size: 1rem;
         }
